@@ -1,0 +1,75 @@
+body {
+  background: var(--bg-default);
+  font-family: 'Source Sans Pro';
+  color: var(--primary);
+  font-size: 1.4em;
+}
+
+.body {
+  background: var(--bg-default);
+  font-family: 'Source Sans Pro';
+  color: var(--primary);
+  font-size: 1.4em;
+}
+
+h1 {
+  color: var(--primary);
+  font-size: calc(3.1rem + 3vw);
+  font-family: 'Lora';
+  font-weight: 550;
+  border-style: none;
+}
+
+h2 {
+  color: var(--primary);
+  font-size: calc(2rem + 3vw);
+  font-family: 'Lora';
+  font-weight: 550;
+  border-style: none;
+}
+
+h4 {
+  color: var(--primary);
+  font-size: 1.4em;
+  font-family: 'Source Sans Pro';
+  font-weight: 500;
+  border-style: none;
+}
+
+h5 {
+  color: var(--primary);
+  font-size: 1em;
+  font-family: 'Source Sans Pro';
+  font-weight: 500;
+  border-style: none;
+}
+
+:root {
+  --primary: #0C4A58;
+  --secondary: #F66E50;
+  --bg-default: #F6F6F6;
+}
+
+.full-screen {
+  height: 100vh;
+}
+
+header {
+  padding-top: 5em;
+}
+
+.card-title {
+  color: var(--secondary);
+  font-weight: 700;
+}
+
+p {
+  line-height: initial;
+  font-size: large;
+}
+
+.card {
+  height: 9em;
+  width: 10em;
+}
+
